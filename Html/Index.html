@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Touko Yvan</title>
+        <link rel="stylesheet" href="../CSS/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
+    </head>
+    <body>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li>
+                    <a href="#home" title="Accueil" class="nav_link active-link">
+                        <i class="ri-home-line"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" title="Projets" class="nav_link">
+                        <i class="ri-folder-2-line"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#services" title="Services" class="nav_link">
+                        <i class="ri-file-edit-line"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#experience" title="Expérience" class="nav_link">
+                        <i class="ri-honour-line"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" title="Contact" class="nav_link">
+                        <i class="ri-send-plane-line"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <section class="home section" id="home">
+                <div class="home_grid">
+                    <!-- Colonne gauche -->
+                    <div class="home_left">
+                        <div class="card profile_card">
+                            <div class="profile_header">
+                                <span class="profile_dot"></span>
+                                <span class="profile_name">Touko Yvan</span>
+                            </div>
+                            <img src="../Img/p1.png" alt="Photo de profil" class="profile_img">
+                            <p class="profile_desc">Passionné par la tech, Je suis un artisan numérique, animé par une vision, pas par la vitesse.</p>
+                            <a href="#" class="button button_black">Télécharger le CV</a>
+                        </div>
+                        <div class="card skills_card">
+                            <h3 class="skills_title">Compétences</h3>
+                            <div class="skills_icons">
+                                <img src="../Img/html.png" alt="HTML">
+                                <img src="../Img/css.png" alt="CSS">
+                                <img src="../Img/js.png" alt="JavaScript">
+                                <img src="../Img/react.png" alt="React">
+                                <img src="../Img/git.png" alt="Git">
+                                <img src="../Img/github.png" alt="GitHub">
+                                <img src="../Img/sass.png" alt="Sass">
+                                <img src="../Img/tailwind.png" alt="Tailwind">
+                                <img src="../Img/figma.png" alt="Figma">
+                                <img src="../Img/ps.png" alt="Photoshop">
+                            </div>
+                            <p class="skills_desc">Retrouvez mes réalisations dans la section projets.</p>
+                        </div>
+                    </div>
+                    <!-- Colonne centrale -->
+                    <div class="home_center">
+                        <div class="main_photo_card">
+                            <img src="../Img/p1.png" alt="Photo principale" class="main_photo_img">
+                            <div class="main_photo_overlay">
+                                <span class="main_photo_name">Touko Yvan</span>
+                                <div class="main_photo_buttons">
+                                    <a href="#projects" class="button">Projets</a>
+                                    <a href="#services" class="button button_black">Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Colonne droite -->
+                    <div class="home_right">
+                        <div class="card about_card">
+                            <span class="about_name">Touko Yvan - <b>Web Designer & Développeur web</b></span>
+                            <p class="about_desc">Basé au Cameroun,  Je construis ce que je ne trouve pas ailleurs : une tech enracinée, utile, et sincère</p>
+                            <div class="about_socials">
+                                <a href="#" class="about_social"><i class="ri-linkedin-fill"></i></a>
+                                <a href="#" class="about_social"><i class="ri-github-fill"></i></a>
+                                <a href="#" class="about_social"><i class="ri-behance-fill"></i></a>
+                            </div>
+                            <img src="../Img/p1.png" alt="Photo profil droite" class="about_img">
+                            <p class="about_contact"> Je donne vie aux idées. Une ligne de code à la fois</p>
+                            <a href="#contact" class="button">Me contacter</a>
+                        </div>
+                    </div>
+                    <!-- Barre latérale verticale -->
+                    <div class="home_sidebar">
+                        <a href="#home" class="sidebar_icon active"><i class="ri-home-4-line"></i></a>
+                        <a href="#projects" class="sidebar_icon"><i class="ri-folder-2-line"></i></a>
+                        <a href="#services" class="sidebar_icon"><i class="ri-file-edit-line"></i></a>
+                        <a href="#experience" class="sidebar_icon"><i class="ri-honour-line"></i></a>
+                        <a href="#contact" class="sidebar_icon"><i class="ri-send-plane-line"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Projets -->
+            <section class="projects section" id="projects">
+                <h2 class="section_title">Mes Projets</h2>
+                <div class="projects_container container grid">
+                    <article class="project_card">
+                        <img src="../Img/project1.jpg" alt="Projet 1" class="project_img">
+                        <div class="project_data">
+                            <h3 class="project_title">Application de comparaison de prix</h3>
+                            <p class="project_description">Une plateforme aui permet de comparer les prix dedifferents produit par super-marche.</p>
+                            <div class="project_buttons">
+                                <a href="" class="button button_black">Démo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project_card">
+                        <img src="../Img/project2.jpg" alt="Projet 2" class="project_img">
+                        <div class="project_data">
+                            <h3 class="project_title">Application de Gestion</h3>
+                            <p class="project_description">Système de gestion des tâches et des projets avec interface intuitive.</p>
+                            <div class="project_buttons">
+                                <a href="#" class="button">Détails</a>
+                                <a href="#" class="button button_black">Démo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project_card">
+                        <img src="../Img/project3.jpg" alt="Projet 3" class="project_img">
+                        <div class="project_data">
+                            <h3 class="project_title">Portfolio Créatif</h3>
+                            <p class="project_description">Site vitrine moderne pour artistes et créateurs de contenu.</p>
+                            <div class="project_buttons">
+                                <a href="#" class="button">Détails</a>
+                                <a href="#" class="button button_black">Démo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Section Services -->
+            <section class="services section" id="services">
+                <h2 class="section_title">Mes Services</h2>
+                <div class="services_container container grid">
+                    <article class="service_card">
+                        <i class="ri-code-line service_icon"></i>
+                        <h3 class="service_title">Développement Web</h3>
+                        <p class="service_description">Création de sites web et applications modernes avec les dernières technologies.</p>
+                    </article>
+
+                    <article class="service_card">
+                        <i class="ri-layout-2-line service_icon"></i>
+                        <h3 class="service_title">Design UI/UX</h3>
+                        <p class="service_description">Conception d'interfaces utilisateur intuitives et expériences utilisateur optimales.</p>
+                    </article>
+
+                    <article class="service_card">
+                        <i class="ri-smartphone-line service_icon"></i>
+                        <h3 class="service_title">Applications Mobiles</h3>
+                        <p class="service_description">Développement d'applications mobiles natives et hybrides pour iOS et Android.</p>
+                    </article>
+
+                    <article class="service_card">
+                        <i class="ri-database-2-line service_icon"></i>
+                        <h3 class="service_title">Backend & API</h3>
+                        <p class="service_description">Création d'APIs robustes et de systèmes backend performants.</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Section Expérience -->
+            <section class="experience section" id="experience">
+                <h2 class="section_title">Mon Expérience</h2>
+                <div class="experience_container container grid">
+                    <div class="experience_timeline">
+                        <div class="experience_item">
+                            <div class="experience_date">
+                                <span>2025</span>
+                            </div>
+                            <div class="experience_content">
+                                <h3 class="experience_title">Développeur Full Stack</h3>
+                                <p class="experience_company">Tech Solutions Inc.</p>
+                                <p class="experience_description">Développement d'applications web et mobiles, gestion de projets et mentorat junior.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience_item">
+                            <div class="experience_date">
+                                <span>2024</span>
+                            </div>
+                            <div class="experience_content">
+                                <h3 class="experience_title">Développeur Frontend</h3>
+                                <p class="experience_company">Digital Creations</p>
+                                <p class="experience_description">Création d'interfaces utilisateur modernes et optimisation des performances.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience_item">
+                            <div class="experience_date">
+                                <span>2023</span>
+                            </div>
+                            <div class="experience_content">
+                                <h3 class="experience_title">Stagiaire Développeur</h3>
+                                <p class="experience_company">Web Innovators</p>
+                                <p class="experience_description">Apprentissage des technologies web et contribution à des projets réels.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Contact -->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">Me Contacter</h2>
+                <div class="contact_container container grid">
+                    <div class="contact_info">
+                        <h3 class="contact_title">Discutons de votre projet</h3>
+                        <p class="contact_description">N'hésitez pas à me contacter pour toute question ou proposition de projet.</p>
+                        
+                        <div class="contact_details">
+                            <div class="contact_item">
+                                <i class="ri-mail-line contact_icon"></i>
+                                <div>
+                                    <h3 class="contact_subtitle">Email</h3>
+                                    <p class="contact_info">toukoyvan@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact_item">
+                                <i class="ri-map-pin-line contact_icon"></i>
+                                <div>
+                                    <h3 class="contact_subtitle">Localisation</h3>
+                                    <p class="contact_info">Cameroun, Douala</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact_form">
+                        <div class="form_group">
+                            <input type="text" placeholder="Votre nom" class="form_input" required>
+                        </div>
+
+                        <div class="form_group">
+                            <input type="email" placeholder="Votre email" class="form_input" required>
+                        </div>
+
+                        <div class="form_group">
+                            <input type="text" placeholder="Sujet" class="form_input" required>
+                        </div>
+
+                        <div class="form_group">
+                            <textarea placeholder="Votre message" class="form_input form_textarea" required></textarea>
+                        </div>
+
+                        <button type="submit" class="button">Envoyer le message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <script src="../JS/main.js"></script>
+    </body>
+</html>
